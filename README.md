@@ -31,15 +31,15 @@ Achieving these goals will allow the government to focus on the pain points of t
 
 
 ## What Data/How we Collected it
-For this project, we will use publicly available datasets provided by the City of Boston. Instead of collecting new data ourselves, we will use the existing city records and combine them to form a single, clean dataset that connects violations to specific properties, owners, and neighborhoods.
+For this project, we will use publicly available datasets provided by the City of Boston. Instead of collecting new data ourselves, we will use the existing city records and combine them to form a single, clean dataset that connects violations to specific properties, owners, and neighborhoods. All data is available for dowwnload from the city's website Analyze Boston.
 
 The datasets include:
 
-- **Building and Property Violations:** Our primary dataset, containing records of housing and building-related complaints and violations across the city.
-- **Public Works Violations:** Additional violation data that provides more context about property-related issues.
-- **Property Assessment Data:** Contains details about properties such as parcel IDs, ownership information, building type, and build year.
-- **SAM (Street Address Management) Addresses Dataset:** Used to standardize and match addresses across all datasets.
-- **Neighborhood Boundaries / SAM Neighborhood Boundaries:** Used to group properties by location and determine which communities are most affected.
+- **Building and Property Violations:** Our primary dataset, containing records of housing and building-related complaints and violations across the city. [Building and Property Violations](https://data.boston.gov/dataset/building-and-property-violations1)
+- **Public Works Violations:** Additional violation data that provides more context about property-related issues. [Public Works Violations](https://data.boston.gov/dataset/public-works-violations)
+- **Property Assessment Data:** Contains details about properties such as parcel IDs, ownership information, building type, and build year. [Property Assesment](https://data.boston.gov/dataset/property-assessment)
+- **SAM (Street Address Management) Addresses Dataset:** Used to standardize and match addresses across all datasets. [SAM Database](https://data.boston.gov/dataset/live-street-address-management-sam-addresses)
+- **Neighborhood Boundaries / SAM Neighborhood Boundaries:** Used to group properties by location and determine which communities are most affected. [Neighborhood Boundaries](https://data.boston.gov/dataset/bpda-neighborhood-boundaries) [SAM Neighborhood Boundaries](https://bostonopendata-boston.opendata.arcgis.com/datasets/boston::live-street-address-management-sam-addresses/about)
 
 We plan to link the datasets together using shared identifiers. Specifically:
 
